@@ -1,0 +1,13 @@
+
+.icons {
+    position: absolute;
+    margin-top: 10em;
+    left: 5%;
+    padding-top: 10px;
+    height: 10%;
+  }
+  .social_media {
+    font-family: "Roboto", sans-serif;
+    color: #a7a3a3;
+    font-weight: 600;
+  }

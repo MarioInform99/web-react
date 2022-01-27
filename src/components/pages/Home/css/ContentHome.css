@@ -1,0 +1,34 @@
+.contenido {
+  font-family: "Roboto", sans-serif;
+  color: #727171;
+  position: relative;
+  box-shadow: 3px 5px 3px 5px rgba(0, 0, 0, 0.5);
+  width: 85%;
+  left: 2.4%;
+  border-radius: 10px;
+  background: rgb(13, 16, 23);
+  background: linear-gradient(
+    183.5deg,
+    rgb(17, 17, 22) 55%,
+    rgb(20, 24, 32) 60%,
+    rgba(44, 45, 68, 1) 100%,
+    rgba(85, 86, 93, 1) 20%,
+    rgb(99, 98, 98) 200%
+  );
+  display: flex;
+}
+.contenido img {    
+  width: 45%;
+}
+.contenido div{
+  
+  background: rgb(13, 16, 23);
+  background: linear-gradient(
+    183.5deg,
+    rgb(17, 17, 22) 55%,
+    rgb(20, 24, 32) 65%,
+    rgba(44, 45, 68, 1) 100%,
+    rgba(85, 86, 93, 1) 20%,
+    rgb(99, 98, 98) 200%
+  );
+}

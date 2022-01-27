@@ -1,0 +1,65 @@
+.box_container {
+  margin-left: 20px;
+  overflow: hidden;
+}
+/* Hexagon using clip-path */
+.hexagon {
+  width: 109px;
+  height: 110px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  animation: animate 4s linear infinite;
+  transition: 2s;
+}
+
+.hexagon:hover {
+  transition: 0s;
+  background: #0f0;
+}
+
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+}
+.box_container .row {
+  margin-top: -20px;
+  background: #111116;
+}
+.box_container .row:nth-child(even) {
+  margin-left: -67px;
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+.hexagon__border {
+  background: #111116;
+  transition: 2s;
+  animation: animate 4s linear infinite;
+}
+.hexagon__border svg {
+  margin-left: -5px;
+  margin-bottom: -3px;
+}
+.texto_animacion {
+  margin-left: 25%;
+  width: 53%;
+  background: #111116;
+}
+.texto_animacion h3 {
+  background: #111116;
+  font-size: 40px;
+  z-index: 100;
+}
+.cuadros:first-child{
+  margin-left: 50px;
+}

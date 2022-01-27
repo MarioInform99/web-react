@@ -1,0 +1,55 @@
+li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;    
+    background-color:  rgb(17, 17, 22);
+}
+li:first-child{
+    margin-right: 30%;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;    
+    background-color:  rgb(17, 17, 22);
+}
+ul{
+    position: fixed;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100vw;
+    z-index: 100;
+    margin-top: 0%;    
+    background-color:  rgb(17, 17, 22);
+}
+@font-face {
+  font-family: logoLetters;
+  src: url(FunCityLevel2Stencil.otf);
+}
+.letras_logo{
+  font-family: logoLetters;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  
+
+  /*degrado de texto*/
+  background: #121FCF;
+  background: -webkit-linear-gradient(to right, #121FCF 0%, #FFFFFF 100%);
+  background: -moz-linear-gradient(to right, #121FCF 0%, #FFFFFF 100%);
+  background: linear-gradient(to right, #121FCF 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+}
